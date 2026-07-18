@@ -23,12 +23,12 @@ async function askAI() {
         const response = await fetch("https://api.dify.ai/v1/workflows/run", {
             method: "POST",
             headers: {
-                "Authorization": "Bearer app-PmfhNAkTQPTuPx354L3yreYZ",
+                "Authorization": "Bearer app-6fGVGIhMztJO0qwv9tP5OKES",
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
                 inputs: {
-                    Question: question
+                    question: question
                 },
                 response_mode: "blocking",
                 user: "website-user"
